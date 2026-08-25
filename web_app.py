@@ -22,6 +22,7 @@ if not os.getenv("SPOTIPY_CLIENT_ID"):
     st.stop()
 
 REDIRECT_URI = os.getenv("SPOTIPY_REDIRECT_URI", "http://127.0.0.1:8501")
+st.write(f"Using redirect URI: {REDIRECT_URI}")
 
 
 sp_oauth = SpotifyOAuth(scope=SCOPE, redirect_uri=REDIRECT_URI ,open_browser=False, cache_path=None)
