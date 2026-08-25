@@ -59,6 +59,7 @@ if "code" in st.query_params:
 if "token_info" not in st.session_state:
     st.warning("Please authenticate with Spotify.")
     authorize_url = sp_oauth.get_authorize_url(state=st.session_state["oauth_state"])
+    st.write(f"Full authorize URL: {authorize_url}")
     st.markdown(
         f'''
         <a href="{authorize_url}" target="_self" style="text-decoration: none;">
