@@ -17,12 +17,7 @@ which is a common complaint with naive shuffling on large playlists.
 
 ## Live demo
 
-🔗 *[Add your deployed Streamlit Cloud URL here once deployed]*
-
-> **Note:** This app runs under Spotify's Development Mode, which restricts
-> login to accounts explicitly added to an allowlist (a limit Spotify places
-> on all newly created API apps, capped at 25 users). If you'd like to try
-> the live demo, feel free to reach out and I can add your Spotify account.
+🔗 https://ffushler-dot-shreejeet.streamlit.app
 
 ## Tech stack
 
